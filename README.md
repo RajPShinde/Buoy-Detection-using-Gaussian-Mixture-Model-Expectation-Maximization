@@ -5,6 +5,7 @@
 ## Authors
 * **Raj Prakash Shinde** [GitHub](https://github.com/RajPShinde)
 * **Shubham Sonawane** [GitHub](https://github.com/shubham1925)
+* **Prasheel Renkuntla** [GitHub](https://github.com/Prasheel24)
 
 ## Overview
 A code to perform segmentation of colours, in an underwater scene consisting of three buoy's, viz. Yellow, Orange and Green. The Implementation uses the Expectation Maximization algorithm to obtain the best Gaussian Model for segmenation of colours.
@@ -35,7 +36,7 @@ python Green_Detection.py
 </p>
 
 ## Output
-<img src="/Output/output.PNG"/>
+<img src="/Output/output.png"/>
 
 ## Disclaimer
 ```
