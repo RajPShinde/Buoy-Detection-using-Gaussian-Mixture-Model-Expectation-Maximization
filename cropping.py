@@ -32,7 +32,7 @@ def crop(p,q,l,crop,c,count):
     mask1 = np.zeros((h,w), np.uint8)
     cv.circle(mask1,(l,l),l,(255,255,255),thickness=-1)
     crop = cv.bitwise_and(crop,crop,mask=mask1)
-    crop[np.where((crop==[0,0,0]).all(axis=2))] = [255,255,255];
+    crop[np.where((crop==[0,0,0]).all(axis=2))] = [0,0,0];
     if count<141:
         if c==1:
             path="\yellow"+str(y)+".jpg"
